@@ -1,0 +1,18 @@
+public class addarray {
+	public void addition(int arr[][],int arr1[][]){
+		int add[][]= new int[2][2];
+		System.out.println("The sum is:  ");
+		for (int i = 0; i < add.length; i++) {
+			for (int j = 0; j < add.length; j++) {
+				add[i][j]+=arr[i][j]+arr1[i][j];
+				}
+			}
+		for (int  i= 0;  i< add.length; i++) {
+			for (int j = 0; j < add.length; j++) {
+				System.out.print(add[i][j]+"\t");
+			}
+			System.out.println("");
+		}
+		
+	}
+}
